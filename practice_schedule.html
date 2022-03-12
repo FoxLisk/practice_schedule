@@ -1,0 +1,44 @@
+<html>
+    <template id="category_template">
+        <div class="text-xl mx-auto text-center rounded outline outline-2 outline-sky-400 p-2 category">
+            <div class="title-text">
+            </div>
+            <div class="flex-col text-base divide-y divide-slate-400 topics">
+            </div>
+        </div>
+    </template>
+    <template id="topic_row">
+        <div class="topic-text">
+        </div>
+    </template>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="practice_schedule.js"></script>
+</head>
+<body>
+<div class="bg-sky-200 h-screen">
+    <div class="container mx-auto w-3/5 bg-sky-300 rounded-md h-2/3 p-3">
+        <div class="flex justify-center mx-auto container w-full p-2">
+            <div>
+                Day: <span id="day"></day>
+            </div>
+            <button
+                id="new_day"
+                type="button"
+                class="rounded-full ml-5 px-3 text-l bg-slate-400">
+                New day, new me</button>
+        </div>
+        <div class="flex flex-nowrap" id="practice_rows">
+        </div>
+        <div class="mt-36 mx-auto">
+            <button
+                id="reset"
+                type="button"
+                class="rounded-full bg-red-300 px-2">
+                Reset
+            </button>
+        </div>
+    </div>
+
+</div>
+</body>
