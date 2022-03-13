@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Chords",
+        "topics": [
+            "Major",
+            "Minor",
+            "7th",
+            "4th String Root"
+        ]
+    },
+    {
+        "name": "Scales",
+        "topics": [
+            "Diatonic",
+            "Harmonic",
+            "Blues",
+            "Pentatonic"
+        ]
+    },
+    {
+        "name": "Plucking",
+        "topics": [
+            "Up and down",
+            "HO/PO",
+            "Group of 3s",
+            "Every other note",
+            "Swing"
+        ]
+    },
+    {
+        "name": "Arpeggios",
+        "topics": [
+            "Major",
+            "Minor"
+        ]
+    }
+]
