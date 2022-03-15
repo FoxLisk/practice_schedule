@@ -18,7 +18,7 @@ class State {
     }
 
     static blank() {
-        return new State(0, [], [
+        return new State(0, [
             {
                 'name': 'Thing A',
                 'topics': [
@@ -202,7 +202,6 @@ document.addEventListener('DOMContentLoaded', async function () {
     reset_button.addEventListener('click', function(e) {
         e.preventDefault();
         if (window.confirm('This will reset progress to day 1. Continue?')) {
-            clear_state();
             set_day(1)
         }
     });
