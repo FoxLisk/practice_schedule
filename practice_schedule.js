@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (err) {
             window.alert("That's valid JSON but invalid contents: " + err);
         }
-        if (true || window.confirm(
+        if (window.confirm(
             'This will replace all current data. ' +
             'This is irreversible. Continue?')) {
             state = new_state;
