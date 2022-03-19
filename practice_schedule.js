@@ -231,6 +231,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             'This is irreversible. Continue?')) {
             state = new_state;
             reflect_state();
+            store_state();
         }
     });
 
