@@ -14,13 +14,14 @@
             "Diatonic",
             "Harmonic",
             "Blues",
+            "Open Majors",
             "Pentatonic"
         ]
     },
     {
         "name": "Plucking",
         "topics": [
-            "Up and down",
+            "Alternating",
             "HO/PO",
             "Group of 3s",
             "Every other note",
